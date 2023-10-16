@@ -16,13 +16,13 @@ const App = () => {
 
       <div className='app'>
         <Hero />
-        <button
+        {/* <button
           type='button'
           className='black_btn mt-6 font-satoshi'
           onClick={() => setIsDemo(!isDemo)}
         >
           Summarize {isDemo ? 'Text' : 'URL'}
-        </button>
+        </button> */}
         {isDemo ? (
             <Demo />
         ) : (
