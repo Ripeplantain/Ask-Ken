@@ -11,7 +11,7 @@ const Hero = () => {
 
                 <button
                     type='button'
-                    onClick={() => console.log('clicked')}
+                    onClick={() => window.open = 'https://github.com/Ripeplantain/Ask-Ken'}
                     className='black_btn'
                 >
                     Github
